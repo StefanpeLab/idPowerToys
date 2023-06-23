@@ -25,7 +25,7 @@ jobs:
       - name: 'Run Azure CLI commands'
         run: |
             pwd
-            ls -la
+            ls
 
       - name: Build with dotnet
         run: dotnet build --source ..\..\src\IdPowerToys.sln
