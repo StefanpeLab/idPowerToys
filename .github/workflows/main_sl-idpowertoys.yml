@@ -63,6 +63,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'sl-idpowertoys'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0799D5638DEC4C7B8ED66D71C90FC240 }}
           package: .
